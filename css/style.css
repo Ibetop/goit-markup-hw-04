@@ -273,6 +273,25 @@ color: var(--secondari-text-color);
 
 /*-----Main-team-----*/
 
+.icon-social-link {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon-social-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.icons-social {
+    height: 16px;
+    width: 16px;
+}
+
 .main-team {
     background-color: #F4F4FD;
     padding-top: 120px;
