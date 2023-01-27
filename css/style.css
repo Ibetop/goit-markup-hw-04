@@ -279,9 +279,6 @@ color: var(--secondari-text-color);
 }
 
 .icon-social-link {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
     padding: 12px;
 }
 
@@ -292,6 +289,14 @@ color: var(--secondari-text-color);
     border-radius: 50%;
     background-color: #4D5AE5;
 }
+
+.icon-social-item:hover {
+    background-color: #404BBF;
+}
+
+.icon-social-list .icon-social-item:not(:last-child) {
+    margin-right: 24px;
+   }
 
 .icons-social {
     height: 16px;
