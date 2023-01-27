@@ -208,9 +208,24 @@ border: 1px solid #4D5AE5;
 
 /*-----Main-----*/
 
-.icon-section1 {
+.icon-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 264px;
-    padding: 0;
+    height: 112px;
+    border: 1px solid #F4F4FD;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+}
+
+.main-item {
+    width: 264px;
+}
+
+.icon-main-item {
+    height: 64px;
+    width: 64px;
 }
 
 .main-list .main-item:not(:last-child) {
@@ -258,10 +273,6 @@ color: var(--secondari-text-color);
 
 /*-----Main-team-----*/
 
-.team-list-icons {
-    padding: 0;
-}
-
 .main-team {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -275,7 +286,9 @@ color: var(--secondari-text-color);
   
 }
 
-
+.team-list .team-item:not(:last-child) {
+    margin-right: 24px;
+}
 .team {
 margin-bottom: 75px;
 font-weight: 700;
