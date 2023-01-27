@@ -273,10 +273,16 @@ color: var(--secondari-text-color);
 
 /*-----Main-team-----*/
 
+.icon-social-list {
+    display: flex;
+    padding: 0;
+}
+
 .icon-social-link {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    padding: 12px;
 }
 
 .icon-social-item {
