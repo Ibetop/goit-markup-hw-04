@@ -33,7 +33,7 @@ ul {
     width: 1158px;
 }
 
-.button-container, .header-container, .nav-list, .adress-list, .main-list, .photos-list, .team-list, .button-container, .button-list, .images-list {
+.button-container, .header-container, .nav-list, .adress-list, .main-list, .photos-list, .team-list, .button-container, .button-list, .images-list, .icon-item, .team-list-icons, .team-icon  {
     display: flex;
 }
 
@@ -208,19 +208,9 @@ border: 1px solid #4D5AE5;
 
 /*-----Main-----*/
 
-
-
-.main-item::before {
-    display: block;
-    content: "";
-    height: 112px;
-    background-image: url(../images/Vector.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F4F4FD;
-    border-radius: 4px;
-
+.icon-section1 {
+    width: 264px;
+    padding: 0;
 }
 
 .main-list .main-item:not(:last-child) {
@@ -268,34 +258,14 @@ color: var(--secondari-text-color);
 
 /*-----Main-team-----*/
 
+.team-list-icons {
+    padding: 0;
+}
+
 .main-team {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.team-list-icons {
-    display: flex;
-    padding: 0;
-}
-
-.team-icon {
-    display: block;
-    content: "";
-    height: 40px;
-    width: 40px;
-    background-color: #4D5AE5;
-    border-radius: 50%;
-    margin-top: 8px;
-    cursor: pointer;
-}
-
-.team-icon:hover {
-    background-color: #404BBF;
-}
-
-.team-icon:not(:last-child){
-    margin-right: 10px;
 }
 
 .team-item {
@@ -305,9 +275,6 @@ color: var(--secondari-text-color);
   
 }
 
-.team-list .team-item:not(:last-child) {
- margin-right: 24px;
-}
 
 .team {
 margin-bottom: 75px;
