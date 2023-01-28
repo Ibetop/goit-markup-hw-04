@@ -396,8 +396,6 @@ color: var(--secondari-text-color);
 
 /*-----Footer-----*/
 
-/* .footer-text-container {
-} */
 
 .footer {
     padding-top: 100px;
@@ -425,17 +423,33 @@ max-width: 264px;
 
 /*---------------FOOTER SOCIAL----------------*/
 
-.footer-social {
-    width: 208px;
-    height: 80px;
+.footer-social-list {
+    display: flex;
+    padding: 0;
 }
 
+.footer-social-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.footer-social-item:hover {
+    background-color: #31D0AA;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 16px;
+}
 
 .footer-social-title {
 font-weight: 500;
 font-size: 16px;
 font-weight: 1.5;
 color: #FFFFFF;
+margin-bottom: 16px;
 }
 
 
