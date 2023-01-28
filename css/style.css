@@ -33,7 +33,7 @@ ul {
     width: 1158px;
 }
 
-.button-container, .header-container, .nav-list, .adress-list, .main-list, .photos-list, .team-list, .button-container, .button-list, .images-list, .icon-item, .team-list-icons, .team-icon  {
+.button-container, .header-container, .nav-list, .adress-list, .main-list, .button-list, .images-list, .photos-list, .team-list, .icon-item, .team-list-icons, .team-icon  {
     display: flex;
 }
 
@@ -472,7 +472,8 @@ margin-bottom: 16px;
 
 
 .button-list {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     margin-bottom: 76px;
 }
 
@@ -504,14 +505,22 @@ margin-bottom: 16px;
 
 /*-------Images portfolio--------*/
 
-.images-container {
+.portfolio-container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* .images-container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 
-}
+} */
 
 .images-list {
     padding: 0;
