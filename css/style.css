@@ -403,6 +403,11 @@ color: var(--secondari-text-color);
     background-color: var(--primary-text-color)
 }
 
+.container-footer {
+    display: flex;
+}
+
+
 .logo-footer {
 font-weight: 800;
 font-size: 18px;
@@ -423,6 +428,10 @@ max-width: 264px;
 
 /*---------------FOOTER SOCIAL----------------*/
 
+.footer-container-social {
+  margin-left: 120px;
+}
+
 .footer-social-list {
     display: flex;
     padding: 0;
@@ -440,6 +449,10 @@ max-width: 264px;
     background-color: #31D0AA;
 }
 
+.footer-social-link {
+    padding: 8px;
+}
+
 .footer-social-item:not(:last-child) {
     margin-right: 16px;
 }
@@ -447,7 +460,7 @@ max-width: 264px;
 .footer-social-title {
 font-weight: 500;
 font-size: 16px;
-font-weight: 1.5;
+line-height: 1.5;
 color: #FFFFFF;
 margin-bottom: 16px;
 }
