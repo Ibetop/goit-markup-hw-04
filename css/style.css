@@ -375,6 +375,7 @@ color: var(--secondari-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px 32px;
     width: 168px;
     height: 88px;
     fill:#8e8f99;
@@ -417,7 +418,7 @@ text-decoration: none;
 font-family: var(--primary-font);
 }
 .footer-text {
-margin-top: 20px;
+margin-top: 16px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
